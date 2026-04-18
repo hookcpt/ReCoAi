@@ -1,0 +1,18 @@
+{
+  "cache_dir": "cache",
+  "search": {
+    "enabled": false,
+    "approved_domains": ["beispiel-hersteller.de", "fabrikant.com"],
+    "manufacturer_priority_patterns": ["hersteller", "fabrikant"],
+    "max_results": 3,
+    "timeout_seconds": 8,
+    "user_agent": "content-enricher/0.1"
+  },
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-1.5-flash",
+    "temperature": 0.2,
+    "max_output_tokens": 800,
+    "debug_traces": false
+  }
+}

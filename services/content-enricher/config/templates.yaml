@@ -1,0 +1,13 @@
+{
+  "default_category": "generic",
+  "categories": {
+    "generic": {
+      "tone": "sachlich",
+      "sections": ["Einleitung", "Produktvorteile", "Einsatzbereich"]
+    },
+    "werkzeug": {
+      "tone": "technisch-präzise",
+      "sections": ["Produktüberblick", "Material und Verarbeitung", "Anwendung"]
+    }
+  }
+}
